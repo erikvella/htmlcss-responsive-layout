@@ -23,6 +23,7 @@
   background-color: rgb(29, 29, 29);
   height: 200px;
   color: white;
+  padding-bottom: 40px;
 }
 .altezza-visiva{
   height: 600px;
@@ -43,7 +44,7 @@ header{
   justify-content: space-between;
 }
 
-.container , .top-bar{
+.container , .top-bar , .container2{
   width: 90%;
   margin: 0 auto;
   max-width: 768px;
@@ -60,14 +61,96 @@ section{
   border-radius: 30px;
 }
 
-.box-small{
+.box-small , .box-small2{
   height: 500px;
   border-radius: 30px;
   margin-top: 20px;
 }
 
+.box-smaller{
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.box-big2{
+    height: 1000px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
 .card{
   height: 800px;
   margin-top: 40px;
   border-radius: 30px;
 }
+
+.foto{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: 30px auto;
+}
+
+/* qui inizia la parte responsive relativa al tablet 
+che va da 769px a 1140px */
+
+@media screen and (min-width:769px) {
+
+  section{
+    width: 100%;
+    max-width: 1199px;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1199px;
+    width: 90%;
+  }
+  
+  .box-big{
+    width: 60%;
+    }
+
+  .box-small{
+    width: 30%;
+    height: 1000px;
+    margin-top: 40px;
+  }
+  .box-smaller{
+    width: 30%;
+    height: 500px;
+    margin-top: 40px;
+  }
+
+  .box-big2{
+    width: 100%;
+    margin: 40px auto;
+  }
+  .card{
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container2{
+    max-width: 1199px;
+    width: 90%;
+  }
+
+  .box-small2{
+    width: 45%;
+  }
+.about-us{
+  display: flex;
+  justify-content: space-between;
+}
+}
+
+
+/* qui finisce la parte responsive del tablet  */
+
+/* qui inizia la parte responsive del desktop */
