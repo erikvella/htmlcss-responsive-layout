@@ -19,6 +19,11 @@
   padding-bottom: 40px;
 }
 
+.dark{
+  background-color: rgb(29, 29, 29);
+  height: 200px;
+  color: white;
+}
 .altezza-visiva{
   height: 600px;
 }
