@@ -44,7 +44,7 @@ header{
   justify-content: space-between;
 }
 
-.container , .top-bar , .container2{
+.container , .top-bar , .container2 , .container3{
   width: 90%;
   margin: 0 auto;
   max-width: 768px;
@@ -96,6 +96,10 @@ section{
 che va da 769px a 1140px */
 
 @media screen and (min-width:769px) {
+  header{
+    width: 100%;
+    max-width: 1199px;
+  }
 
   section{
     width: 100%;
@@ -148,9 +152,48 @@ che va da 769px a 1140px */
   display: flex;
   justify-content: space-between;
 }
+
+.container3{
+  width: 70%;
+}
 }
 
 
 /* qui finisce la parte responsive del tablet  */
 
+
+
+
+
 /* qui inizia la parte responsive del desktop */
+
+@media screen and (min-width:1200px) {
+  .container , .top-bar , .container2{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+}
+.container3{
+  width: 50%;
+    margin: 0 auto;
+    
+}
+
+header{
+  width: 100%;
+  max-width: 1900px;
+}
+
+.container{
+  flex-wrap: wrap;
+}
+.box-big{
+  width: 65%;
+}
+.box-small , .box-smaller {
+  width: 30%;
+}
+}
+  
