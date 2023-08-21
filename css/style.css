@@ -13,6 +13,16 @@
   display: flex;
 }
 
+.violet{
+  background-color: rgb(164, 81, 164);
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.altezza-visiva{
+  height: 600px;
+}
+
 
 /* stili generali dei vari componenti */
 
@@ -49,4 +59,10 @@ section{
   height: 500px;
   border-radius: 30px;
   margin-top: 20px;
+}
+
+.card{
+  height: 800px;
+  margin-top: 40px;
+  border-radius: 30px;
 }
