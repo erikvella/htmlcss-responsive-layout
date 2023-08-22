@@ -30,7 +30,7 @@ font-family: 'PT Sans', sans-serif;
 .altezza-visiva{
   height: 600px;
 }
-#menu{
+.menu{
   display: none;
 }
 
@@ -40,14 +40,19 @@ header{
   max-width: 768px;
   height: 100px;
   margin: 0 auto;
-  
-  
+  background-color: rgb(46, 46, 255);
 }
 
 .top-bar{
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
+.fa-solid{
+  color: white;
+  font-size: 1.5rem;
+}
 .container , .top-bar , .container2 , .container3{
   width: 90%;
   margin: 0 auto;
