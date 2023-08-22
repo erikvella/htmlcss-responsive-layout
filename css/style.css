@@ -14,7 +14,9 @@ font-family: 'PT Sans', sans-serif;
 .d-flex{
   display: flex;
 }
-
+.wrap{
+  flex-wrap: wrap;
+}
 .violet , .violet2 , .violet3{
   background-color: rgb(153, 106, 240);
   margin-top: 40px;
@@ -22,8 +24,8 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .dark{
-  background-color: rgb(29, 29, 29);
-  height: 200px;
+  background-color: rgb(37, 36, 36);
+  
   color: white;
   padding-bottom: 40px;
 }
@@ -276,6 +278,35 @@ h3{
   height: 100%;
   position: absolute;
   right: -50px;
+}
+
+.testimonial2{
+  height: 100%;
+}
+
+
+.privacy{
+  color: white;
+  margin: 30px;
+}
+
+#cr{
+  list-style: none;
+  margin-right: 30px;
+}
+
+#pp{
+  color: white;
+}
+
+ul li:last-child{
+  margin-left: 110px;
+}
+
+.p-foot{
+  color: white;
+  text-align: center;
+ 
 }
 
 /* qui inizia la parte responsive relativa al tablet 
