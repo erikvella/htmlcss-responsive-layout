@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
 }
 
 .debug{
@@ -28,7 +30,9 @@
 .altezza-visiva{
   height: 600px;
 }
-
+#menu{
+  display: none;
+}
 
 /* stili generali dei vari componenti */
 
