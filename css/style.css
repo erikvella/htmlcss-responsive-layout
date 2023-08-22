@@ -16,7 +16,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .violet , .violet2 , .violet3{
-  background-color: rgb(164, 81, 164);
+  background-color: rgb(153, 106, 240);
   margin-top: 40px;
   padding-bottom: 40px;
 }
@@ -34,6 +34,9 @@ font-family: 'PT Sans', sans-serif;
   display: none;
 }
 
+.t-center{
+  text-align: center;
+}
 /* stili generali dei vari componenti */
 
 header{
@@ -49,9 +52,10 @@ header{
   height: 100%;
 }
 
-.fa-solid{
+.fa-bars , .fa-apple{
   color: white;
   font-size: 1.5rem;
+  padding-right: 10px;
 }
 .container , .top-bar , .container2 , .container3{
   width: 90%;
@@ -59,27 +63,84 @@ header{
   max-width: 768px;
 }
 
+
+/* qui inixiano gli stili relativi al main */
 section{
   width: 100%;
   max-width: 768px;
 }
-
+/* stili del box-big */
 .box-big{
-  height: 1000px;
+  background-color: rgb(121, 190, 253);
   margin-top: 40px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  padding: 30px;
+  color: rgb(56, 56, 255);
+  font-size: 2rem;
 }
 
-.box-small , .box-small2{
-  height: 500px;
+p{
+padding: 30px;
+color: rgb(92, 92, 92);
+font-size: 1.5rem;
+}
+
+.btn-blu{
+  background-color: rgb(75, 75, 255);
+  padding:  10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+.phone{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+/* stili dei box più piccoli */
+.box-small{
+  background-color: rgb(121, 190, 253);
+}
+
+.box-small{
+  
   border-radius: 30px;
   margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.box-small2{
+  border-radius: 30px;
+  margin-top: 20px;
+background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.fa-file-code , .fa-compass-drafting , .fa-laptop-code , .fa-bullhorn{
+  color: rgb(56, 56, 255);
+  font-size: 6rem;
+  margin-top: 20px;
+}
+
 
 .box-smaller{
-  height: 500px;
   border-radius: 30px;
   margin-top: 20px;
+  background-color: rgb(121, 190, 253);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box-big2{
@@ -88,20 +149,22 @@ section{
     border-radius: 30px;
 }
 .card{
-  height: 800px;
+  text-align: center;
   margin-top: 40px;
   border-radius: 30px;
+  background-color: rgb(153, 106, 240);
 }
 
 .foto{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: aqua;
   margin: 30px auto;
+  overflow: hidden;
 }
 
-
+/* parte relativa ai box della prima parte violet */
 .nobg-box{
   width: 100%;
 }
@@ -110,7 +173,84 @@ section{
   width: 100%;
   border-radius: 30px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.w-title{
+  color: white;
+  font-size: 1.8rem;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.w-p{
+  color: white;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.b-title{
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+em{
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.btn-viola-circle{
+ background-color: rgb(153, 106, 240);
+ padding: 15px;
+ color: black;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 20px;
+}
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.v-title{
+  color:rgb(153, 106, 240);
+  font-size:2rem;
+  padding-left: 30px;
+  padding: 20px;
+}
+.v{
+  color:rgb(153, 106, 240);
+  padding-left: 30px;
+}
+
+
+.btn-viola a{
+  background-color: rgb(153, 106, 240);
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  text-decoration: none;
+  
+}
+/* qui finisce la parte della prima section violet e inizia la parte dei testimonial con le relative card */
+
+.testimonial{
+  max-width: 100%;
+}
+
 /* qui inizia la parte responsive relativa al tablet 
 che va da 769px a 1140px */
 
